@@ -6,7 +6,7 @@ This project is a midterm project for the SE3508 Introduction to Artificial Inte
 The models are trained on the [Flowers Dataset](https://www.kaggle.com/datasets/imsparsh/flowers-dataset/data) containing 5 flower categories: Daisy, Dandelion, Rose, Sunflower, and Tulip.
 
 ## Project Structure
-'''
+```
 bash
 flower-classification/
 ├── datasets/
@@ -44,18 +44,18 @@ flower-classification/
 ├── train_vgg16_finetuned.py
 ├── requirements.txt
 └── README.md
-'''
+```
 ## Installation
 1. Clone the repository:
-''' bash
+``` bash
 git clone https://github.com/ibrahimbinbuga/flower-classification.git
 cd flower-classification
-'''
+```
 
 2. Install dependencies:
-''' bash
+``` bash
 pip install -r requirements.txt
-'''
+```
 
 ## Model Architectures
 
@@ -102,9 +102,9 @@ pip install -r requirements.txt
 
 ## Model Comparison
 1. Run performance_comparison.py:
-''' bash
+``` bash
 python performance_comparison.py
-'''
+```
 
 ## Analysis
 - Custom CNN achieved reasonable accuracy despite being trained from scratch.
