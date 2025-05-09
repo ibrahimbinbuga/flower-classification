@@ -6,6 +6,8 @@ This project is a midterm project for the SE3508 Introduction to Artificial Inte
 The models are trained on the [Flowers Dataset](https://www.kaggle.com/datasets/imsparsh/flowers-dataset/data) containing 5 flower categories: Daisy, Dandelion, Rose, Sunflower, and Tulip.
 
 ## Project Structure
+'''
+bash
 flower-classification/
 ├── datasets/
 │ └── flowers/
@@ -42,7 +44,7 @@ flower-classification/
 ├── train_vgg16_finetuned.py
 ├── requirements.txt
 └── README.md
-
+'''
 ## Installation
 1. Clone the repository:
 ''' bash
